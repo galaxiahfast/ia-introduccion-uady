@@ -1,7 +1,7 @@
-# 🤖 Introducción a la Inteligencia Artificial
+# *🤖 Introducción a la Inteligencia Artificial*
 
 <p align="center">
-  <strong>Maestría en Inteligencia Artificial · Facultad de Matemáticas</strong>
+  <strong><em>Maestría en Inteligencia Artificial · Facultad de Matemáticas</em></strong>
 </p>
 
 <p align="center">
@@ -14,319 +14,116 @@
 </p>
 
 <p align="center">
-  Repositorio de prácticas, experimentos y proyecto final de la asignatura
-  <strong>Introducción a la Inteligencia Artificial</strong>.
+  <em>Repositorio de prácticas, experimentos y proyecto final de la asignatura
+  <strong>Introducción a la Inteligencia Artificial</strong>.</em>
 </p>
 
----
+## *📚 Contenido de la asignatura*
 
-## Overview
+<div align="center">
 
-Este repositorio implementa los principales paradigmas de **Inteligencia Artificial**, desde algoritmos clásicos de búsqueda y razonamiento hasta **Machine Learning, Reinforcement Learning, Computer Vision, LLMs y RAG**.
+<table style="border: none;">
+<thead>
+<tr>
+<th style="border: none;"><em>Unidad</em></th>
+<th style="border: none;"><em>Temas principales</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: none;"><strong><em>Unidad 1</em></strong><br><em>Fundamentos de IA</em></td>
+<td style="border: none;"><em>Conceptos de IA · Agentes · BFS · DFS · UCS · Greedy · A*</em></td>
+</tr>
+<tr>
+<td style="border: none;"><strong><em>Unidad 2</em></strong><br><em>Razonamiento</em></td>
+<td style="border: none;"><em>Lógica · Bayes · Redes bayesianas · Árboles de decisión · Algoritmos genéticos</em></td>
+</tr>
+<tr>
+<td style="border: none;"><strong><em>Unidad 3</em></strong><br><em>Aprendizaje automático</em></td>
+<td style="border: none;"><em>Perceptrón multicapa · K-Means · Q-Learning · Visión computacional</em></td>
+</tr>
+<tr>
+<td style="border: none;"><strong><em>Unidad 4</em></strong><br><em>LLM & RAG</em></td>
+<td style="border: none;"><em>LLMs · Embeddings · Transformers · Prompt Engineering · RAG</em></td>
+</tr>
+</tbody>
+</table>
 
-El objetivo es transformar los conceptos teóricos de la asignatura en implementaciones reproducibles, experimentos y soluciones computacionales.
+<p><em>Tabla 1.1. Contenido temático de la asignatura.</em></p>
 
-```text
-                    Artificial Intelligence
-                             │
-          ┌──────────────────┼──────────────────┐
-          ▼                  ▼                  ▼
-       Classical             ML                GenAI
-          AI                 │                  │
-          │          ┌───────┼───────┐          │
-          ▼          ▼       ▼       ▼          ▼
-       Search     Supervised  Unsupervised   LLM / RAG
-       Agents     Neural Nets   RL           NLP
-       Logic      Clustering   Q-Learning     Embeddings
-       Bayesian
-```
+</div>
 
-La asignatura contempla cuatro unidades: fundamentos de IA; razonamiento y cómputo evolutivo; aprendizaje automático y visión computacional; y modelos de lenguaje y generación aumentada.
+## *📁 Estructura del proyecto*
 
----
+<div align="left">
 
-## 🧠 Topics
+<i>
 
-| Área                       | Implementaciones                                  |
-| -------------------------- | ------------------------------------------------- |
-| **Agents**                 | Reactive Agents, PEAS, Grid World                 |
-| **Search**                 | BFS, DFS, UCS, Greedy, A*                         |
-| **Logic**                  | Propositional Logic, First-Order Logic, Inference |
-| **Probabilistic AI**       | Bayes, Bayesian Networks                          |
-| **Evolutionary Computing** | Genetic Algorithms, Local Search                  |
-| **Machine Learning**       | Decision Trees, MLP, K-Means                      |
-| **Reinforcement Learning** | Q-Learning, Grid World                            |
-| **Computer Vision**        | Image Processing, Classification                  |
-| **LLMs**                   | Tokenization, Embeddings, Prompt Engineering      |
-| **RAG**                    | Retrieval Pipeline, Document Indexing             |
-
-Estos temas corresponden al contenido técnico establecido para las cuatro unidades de la asignatura.
-
----
-
-## ⚙️ Tech Stack
-
-**Core**
-
-`Python 3.10+` · `NumPy` · `Matplotlib` · `NetworkX`
-
-**Machine Learning**
-
-`scikit-learn` · `pgmpy`
-
-**Deep Learning**
-
-`PyTorch` · `TensorFlow` · `Keras`
-
-**Computer Vision**
-
-`OpenCV`
-
-**Reinforcement Learning**
-
-`Gymnasium`
-
-**LLM / NLP**
-
-`Hugging Face Transformers` · `LangChain` · `LLM APIs`
-
-**Environment**
-
-`JupyterLab` · `Jupyter Notebook` · `VS Code`
-
-El stack se basa en las herramientas indicadas como recursos de apoyo de la asignatura.
-
----
-
-## 📁 Project Structure
-
-```text
-.
-├── 01-fundamentos/
-│   ├── agents/
-│   ├── search/
-│   │   ├── bfs/
-│   │   ├── dfs/
-│   │   ├── ucs/
-│   │   └── astar/
-│   └── notebooks/
+```text id="7h1v4e"
+ia-introduccion-uady/
 │
+├── 01-fundamentos-ia/
 ├── 02-razonamiento/
-│   ├── logic/
-│   ├── bayesian/
-│   ├── decision-trees/
-│   └── genetic-algorithms/
-│
-├── 03-machine-learning/
-│   ├── mlp/
-│   ├── kmeans/
-│   ├── q-learning/
-│   └── computer-vision/
-│
+├── 03-aprendizaje-automatico/
 ├── 04-llm-rag/
-│   ├── prompting/
-│   ├── embeddings/
-│   ├── llm/
-│   └── rag/
-│
 ├── proyecto-final/
-│   ├── src/
-│   ├── data/
-│   ├── notebooks/
-│   └── README.md
 │
-├── requirements.txt
 └── README.md
 ```
 
----
+</i>
 
-## 🚀 Quick Start
+<p><em>Figura 1.1. Estructura general del repositorio.</em></p>
 
-### 1. Clone
+</div>
 
-```bash
-git clone https://github.com/<username>/<repository>.git
-cd <repository>
-```
+## *📖 Referencias*
 
-### 2. Virtual Environment
+<div align="center">
 
-```bash
-python -m venv .venv
-```
+<table style="border: none;">
+<thead>
+<tr>
+<th style="border: none;"><em>Autor</em></th>
+<th style="border: none;"><em>Obra</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: none;"><em>Russell & Norvig</em></td>
+<td style="border: none;"><em>Artificial Intelligence: A Modern Approach</em></td>
+</tr>
+<tr>
+<td style="border: none;"><em>Sutton & Barto</em></td>
+<td style="border: none;"><em>Reinforcement Learning: An Introduction</em></td>
+</tr>
+<tr>
+<td style="border: none;"><em>Tunstall, Von Werra & Wolf</em></td>
+<td style="border: none;"><em>Natural Language Processing with Transformers</em></td>
+</tr>
+<tr>
+<td style="border: none;"><em>Aggarwal</em></td>
+<td style="border: none;"><em>Neural Networks and Deep Learning</em></td>
+</tr>
+<tr>
+<td style="border: none;"><em>Eiben & Smith</em></td>
+<td style="border: none;"><em>Introduction to Evolutionary Computing</em></td>
+</tr>
+<tr>
+<td style="border: none;"><em>Bouchard & Peters</em></td>
+<td style="border: none;"><em>Building LLMs for Production</em></td>
+</tr>
+</tbody>
+</table>
 
-**Windows**
+<p><em>Tabla 1.2. Bibliografía principal y complementaria.</em></p>
 
-```bash
-.venv\Scripts\activate
-```
+</div>
 
-**Linux / macOS**
+## *👨‍💻 Autor*
 
-```bash
-source .venv/bin/activate
-```
+***Julián Emiliano Ortiz Rivero***
 
-### 3. Dependencies
+*Maestría en Inteligencia Artificial · Facultad de Matemáticas · Universidad Autónoma de Yucatán (UADY)*
 
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Launch
-
-```bash
-jupyter lab
-```
-
----
-
-## 🔬 Implementations
-
-### Search Algorithms
-
-Comparación de algoritmos mediante:
-
-* Completeness
-* Optimality
-* Time complexity
-* Space complexity
-* Heuristic performance
-
-Incluye implementaciones de **BFS, DFS, UCS y A*** sobre problemas de búsqueda.
-
-### Machine Learning
-
-Modelos introductorios para:
-
-```text
-Dataset
-   │
-   ▼
-Preprocessing
-   │
-   ▼
-Training
-   │
-   ▼
-Evaluation
-   │
-   ├── Accuracy
-   ├── Precision
-   ├── Recall
-   └── F1
-```
-
-Incluye árboles de decisión, MLP y clustering mediante K-Means.
-
-### Reinforcement Learning
-
-Implementación de **Q-Learning** sobre entornos simples:
-
-```text
-Agent ── action ──► Environment
-  ▲                    │
-  │                    ▼
-  └──── reward ◄──── State
-```
-
-Se estudia particularmente el equilibrio entre **exploration** y **exploitation**.
-
-### LLM & RAG
-
-Pipeline conceptual:
-
-```text
-Documents
-    │
-    ▼
-Chunking
-    │
-    ▼
-Embeddings
-    │
-    ▼
-Vector Index
-    │
-    ▼
-Retriever
-    │
-    ▼
-Relevant Context
-    │
-    ▼
-LLM
-    │
-    ▼
-Generated Response
-```
-
-La asignatura contempla tokenización, embeddings, Transformers, prompting, evaluación de LLMs y construcción de pipelines RAG.
-
----
-
-## 📊 Experiments
-
-Cada práctica busca mantener una estructura reproducible:
-
-```text
-Input
-  ↓
-Preprocessing
-  ↓
-Algorithm / Model
-  ↓
-Inference
-  ↓
-Evaluation
-  ↓
-Visualization
-```
-
-Los notebooks documentan el proceso experimental, resultados y conclusiones de cada implementación.
-
----
-
-## 🎯 Final Project
-
-Proyecto integrador orientado a resolver un problema utilizando uno o varios paradigmas estudiados durante la asignatura.
-
-Posibles líneas:
-
-* Search & Optimization
-* Intelligent Agents
-* Probabilistic Reasoning
-* Machine Learning
-* Reinforcement Learning
-* Computer Vision
-* LLM Applications
-* Retrieval-Augmented Generation
-
-El proyecto contempla implementación, resultados, documentación y presentación como parte del portafolio digital.
-
----
-
-## 📚 References
-
-* Russell & Norvig — *Artificial Intelligence: A Modern Approach*
-* Sutton & Barto — *Reinforcement Learning: An Introduction*
-* Tunstall, Von Werra & Wolf — *Natural Language Processing with Transformers*
-* Aggarwal — *Neural Networks and Deep Learning*
-* Eiben & Smith — *Introduction to Evolutionary Computing*
-
-Bibliografía basada en las referencias oficiales de la asignatura.
-
----
-
-## 👨‍💻 Author
-
-**Julián Emiliano Ortiz Rivero**
-
-Maestría en Inteligencia Artificial
-
----
-
-<p align="center">
-  <sub>Academic AI Portfolio · 2026</sub>
-</p>
+*© 2026 Universidad Autónoma de Yucatán (UADY). Todos los derechos reservados.*
