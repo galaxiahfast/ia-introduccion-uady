@@ -1,4 +1,4 @@
-# *🤖 Introducción a la Inteligencia Artificial*
+# *𐚁 &nbsp; Introducción a la Inteligencia Artificial*
 
 <p align="center">
   <strong><em>Maestría en Inteligencia Artificial · Facultad de Matemáticas</em></strong>
@@ -18,32 +18,37 @@
   <strong>Introducción a la Inteligencia Artificial</strong>.</em>
 </p>
 
-## *📚 Contenido de la asignatura*
+## *‎ꫂ᭪݁ &nbsp; Contenido de la asignatura*
 
 <div align="center">
 
 <table style="border: none;">
 <thead>
 <tr>
-<th style="border: none;"><em>Unidad</em></th>
+<th style="border: none;" align="center"><em>Unidad</em></th>
+<th style="border: none;"><em>N. de la unidad</em></th>
 <th style="border: none;"><em>Temas principales</em></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="border: none;"><strong><em>Unidad 1</em></strong><br><em>Fundamentos de IA</em></td>
+<td style="border: none;" align="center"><strong><em>1</em></strong></td>
+<td style="border: none;"><em>Fundamentos de IA</em></td>
 <td style="border: none;"><em>Conceptos de IA · Agentes · BFS · DFS · UCS · Greedy · A*</em></td>
 </tr>
 <tr>
-<td style="border: none;"><strong><em>Unidad 2</em></strong><br><em>Razonamiento</em></td>
+<td style="border: none;" align="center"><strong><em>2</em></strong></td>
+<td style="border: none;"><em>Razonamiento</em></td>
 <td style="border: none;"><em>Lógica · Bayes · Redes bayesianas · Árboles de decisión · Algoritmos genéticos</em></td>
 </tr>
 <tr>
-<td style="border: none;"><strong><em>Unidad 3</em></strong><br><em>Aprendizaje automático</em></td>
+<td style="border: none;" align="center"><strong><em>3</em></strong></td>
+<td style="border: none;"><em>Aprendizaje Automático</em></td>
 <td style="border: none;"><em>Perceptrón multicapa · K-Means · Q-Learning · Visión computacional</em></td>
 </tr>
 <tr>
-<td style="border: none;"><strong><em>Unidad 4</em></strong><br><em>LLM & RAG</em></td>
+<td style="border: none;" align="center"><strong><em>4</em></strong></td>
+<td style="border: none;"><em>LLM & RAG</em></td>
 <td style="border: none;"><em>LLMs · Embeddings · Transformers · Prompt Engineering · RAG</em></td>
 </tr>
 </tbody>
@@ -53,13 +58,13 @@
 
 </div>
 
-## *📁 Estructura del proyecto*
+## *ꪆৎ &nbsp; Estructura del proyecto*
 
 <div align="left">
 
 <i>
 
-```text id="7h1v4e"
+```text
 ia-introduccion-uady/
 │
 ├── 01-fundamentos-ia/
@@ -73,11 +78,13 @@ ia-introduccion-uady/
 
 </i>
 
-<p><em>Figura 1.1. Estructura general del repositorio.</em></p>
+<p align="center">
+  <em>Figura 1.1. Estructura general del repositorio.</em>
+</p>
 
 </div>
 
-## *📖 Referencias*
+## *あ &nbsp; Referencias*
 
 <div align="center">
 
@@ -120,10 +127,21 @@ ia-introduccion-uady/
 
 </div>
 
-## *👨‍💻 Autor*
+## *𓍯𓂃 &nbsp; Autor*
 
-***Julián Emiliano Ortiz Rivero***
+<div align="left">
 
-*Maestría en Inteligencia Artificial · Facultad de Matemáticas · Universidad Autónoma de Yucatán (UADY)*
+<em>Julián Emiliano Ortiz Rivero</em>
 
-*© 2026 Universidad Autónoma de Yucatán (UADY). Todos los derechos reservados.*
+<em>
+Maestría en Inteligencia Artificial - Facultad de Matemáticas<br>
+Universidad Autónoma de Yucatán (UADY)
+</em>
+
+<br>
+
+<em>Repositorio académico · 2026</em>
+
+<em>© 2026 Universidad Autónoma de Yucatán (UADY). Todos los derechos reservados.</em>
+
+</div>
