@@ -1,0 +1,26 @@
+EVIDENCIA DE EJECUCIÓN - EJERCICIO 1
+Fecha de prueba: 3 de septiembre de 2026
+Configuración: config/mi_cueva_4x4.yaml
+
+Visor del mundo:
+Loaded config\mi_cueva_4x4.yaml (4x4)
+
+Agente de reflejo simple:
+Result: stopped without gold  steps=200  score=-200.0
+
+Agente basado en modelo:
+Result: stopped without gold  steps=200  score=-200.0
+
+Agente basado en metas:
+Result: stopped without gold  steps=200  score=-200.0
+
+Agente basado en utilidad:
+Result: climbed with gold  steps=15  score=985.0
+
+Agente de aprendizaje:
+Trained 1500 episodes on config\mi_cueva_4x4.yaml
+Mean score (all): -23.4
+Mean score (last 50): 17.0
+Q-table size: 462 state-action pairs
+Result: climbed without gold  steps=1  score=-1.0
+
