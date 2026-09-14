@@ -1,0 +1,40 @@
+Pareja usada: Oradea -> Bucharest
+Heurística: distancia en línea recta a Bucharest (tabla AIMA)
+
+Valores principales de h:
+Oradea: 380
+Sibiu: 253
+Fagaras: 176
+Rimnicu Vilcea: 193
+Pitesti: 100
+Bucharest: 0
+
+GREEDY
+Status: success
+Path: Oradea -> Sibiu -> Fagaras -> Bucharest
+Depth: 3 roads
+Cost: 461 km
+Expanded: 3 nodes
+Generated: 9 nodes
+
+Ciudad              g    h    f
+Oradea               0  380  380
+Sibiu              151  253  404
+Fagaras            250  176  426
+Bucharest          461    0  461
+
+A*
+Status: success
+Path: Oradea -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest
+Depth: 4 roads
+Cost: 429 km
+Expanded: 5 nodes
+Generated: 15 nodes
+
+Ciudad              g    h    f
+Oradea               0  380  380
+Sibiu              151  253  404
+Rimnicu Vilcea     231  193  424
+Pitesti            328  100  428
+Bucharest          429    0  429
+
