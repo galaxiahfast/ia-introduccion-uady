@@ -26,4 +26,4 @@ En los datos originales, los tres grupos de la izquierda están casi pegados y K
 
 Con los centros nuevos se distinguen cinco nubes. La mejor silueta cambió a `k=5` y el codo también se observa alrededor de 5. Si siguiera apareciendo en 4, tendría que separar más los centros o reducir las desviaciones.
 
-La notebook contiene el código original y al final la comparación del ejercicio. Las ocho figuras están en `evidencias`.
+La notebook fue ejecutada completa en Google Colab y conserva las salidas originales y modificadas. Las ocho figuras están en `evidencias` y las capturas del entorno están en `evidencias_colab`.
