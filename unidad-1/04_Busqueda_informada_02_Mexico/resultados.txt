@@ -1,0 +1,22 @@
+PRUEBA 1
+Origen: Tijuana
+Destino: Cancún
+Status: success
+Depth: 125 hops
+Cost: 4528.20 km
+Expanded: 949 nodes
+Heuristic: haversine distance to destination
+
+PRUEBA 2
+Origen: Guadalajara
+Destino: Mérida
+Status: success
+Depth: 70 hops
+Cost: 1984.75 km
+Expanded: 736 nodes
+Heuristic: haversine distance to destination
+
+PRUEBA DE NOMBRE REPETIDO
+Comando: python find_route.py --from-city Puebla --to Cancún
+Resultado: El nombre es ambiguo. Usa uno de estos: Puebla, Puebla; Puebla, Baja California
+
