@@ -1,0 +1,47 @@
+Pareja usada: Oradea -> Bucharest
+
+BFS
+Status: success
+Path: Oradea -> Sibiu -> Fagaras -> Bucharest
+Depth: 3 roads
+Cost: 461 km
+Expanded: 5 nodes
+Generated: 13 nodes
+
+UCS
+Status: success
+Path: Oradea -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest
+Depth: 4 roads
+Cost: 429 km
+Expanded: 10 nodes
+Generated: 27 nodes
+
+DFS
+Status: success
+Path: Oradea -> Sibiu -> Arad -> Timisoara -> Lugoj -> Mehadia -> Drobeta -> Craiova -> Pitesti -> Bucharest
+Depth: 9 roads
+Cost: 1024 km
+Expanded: 9 nodes
+Generated: 24 nodes
+
+DLS --limit 2
+Status: cutoff
+Expanded: 3 nodes
+Generated: 9 nodes
+
+DLS --limit 4
+Status: success
+Path: Oradea -> Sibiu -> Fagaras -> Bucharest
+Depth: 3 roads
+Cost: 461 km
+Expanded: 6 nodes
+Generated: 12 nodes
+
+IDS
+Status: success
+Path: Oradea -> Sibiu -> Fagaras -> Bucharest
+Depth: 3 roads
+Cost: 461 km
+Expanded: 8 nodes
+Generated: 21 nodes
+
