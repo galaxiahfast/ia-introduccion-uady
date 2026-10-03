@@ -1,4 +1,5 @@
 from google import genai
+from google.genai import types
 
 from app.config import EMBEDDING_MODEL, google_api_key
 
@@ -28,9 +29,13 @@ class GoogleEmbedder:
     def _embed_in_batches(self, texts: list[str], batch_size: int = 20) -> list[list[float]]:
         vectors = []
         for start in range(0, len(texts), batch_size):
+            contents = [
+                types.Content(parts=[types.Part.from_text(text=text)])
+                for text in texts[start : start + batch_size]
+            ]
             response = self.client.models.embed_content(
                 model=EMBEDDING_MODEL,
-                contents=texts[start : start + batch_size],
+                contents=contents,
             )
             vectors.extend(list(item.values) for item in response.embeddings)
         return vectors

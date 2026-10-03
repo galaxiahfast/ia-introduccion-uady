@@ -1,10 +1,8 @@
 # Evidencias
 
-Las capturas finales se toman después de colocar la clave personal en `.env`:
+1. `01_streamlit_respuesta.jpg`: respuesta sobre BFS y DFS con citas y puntajes.
+2. `02_fastapi_docs.jpg`: consulta realizada desde la documentación de FastAPI.
+3. `03_abstencion.jpg`: ejemplo de una pregunta que no pertenece a los documentos.
 
-1. `01_streamlit_respuesta.png`: respuesta a “¿Qué diferencia hay entre BFS y DFS?” con citas y scores.
-2. `02_fastapi_docs.png`: la misma consulta desde `http://localhost:8000/docs`.
-3. `03_abstencion.png`: pregunta “¿Cuál es la receta de la paella?” mostrando la abstención.
-
-No se debe mostrar la clave de Google AI en las capturas.
+Las capturas se hicieron con el proyecto funcionando. La clave de Google AI no aparece en las imágenes ni se guarda en Git.
 
